@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		7A8F485720DAAA4E0037C985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F485620DAAA4E0037C985 /* AppDelegate.swift */; };
-		7A8F485920DAAA4E0037C985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F485820DAAA4E0037C985 /* ViewController.swift */; };
+		7A8F485920DAAA4E0037C985 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F485820DAAA4E0037C985 /* MenuViewController.swift */; };
 		7A8F485C20DAAA4E0037C985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8F485A20DAAA4E0037C985 /* Main.storyboard */; };
 		7A8F485E20DAAA500037C985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8F485D20DAAA500037C985 /* Assets.xcassets */; };
 		7A8F486120DAAA500037C985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8F485F20DAAA500037C985 /* LaunchScreen.storyboard */; };
+		7A8F486920DACD6E0037C985 /* RCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F486820DACD6E0037C985 /* RCConfig.swift */; };
+		7A8F486B20DAD0790037C985 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8F486A20DAD0790037C985 /* GoogleService-Info.plist */; };
+		7A8F486E20E113D50037C985 /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F486D20E113D50037C985 /* WaitingViewController.swift */; };
+		7A8F487020E11DC20037C985 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F486F20E11DC20037C985 /* TabViewController.swift */; };
+		7A8F487320E13E480037C985 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F487220E13E480037C985 /* Feature.swift */; };
+		7A8F487520E13ED30037C985 /* ViewControllerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F487420E13ED30037C985 /* ViewControllerFeature.swift */; };
+		7A8F487720E15E9B0037C985 /* Features.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8F487620E15E9B0037C985 /* Features.plist */; };
+		7A8F487920E166AB0037C985 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F487820E166AB0037C985 /* HistoryViewController.swift */; };
+		7A8F487B20E166C20037C985 /* DashvoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F487A20E166C20037C985 /* DashvoardViewController.swift */; };
+		7A8F487D20E166DE0037C985 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F487C20E166DE0037C985 /* MapViewController.swift */; };
+		B60DF5D8EEC54C51A3169724 /* Pods_FeatureFlags.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D0C739D8AB6F71B2DB5620 /* Pods_FeatureFlags.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48D0C739D8AB6F71B2DB5620 /* Pods_FeatureFlags.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeatureFlags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CA52CCAB2B4C934BDEE67C /* Pods-FeatureFlags.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeatureFlags.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeatureFlags/Pods-FeatureFlags.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8F485320DAAA4E0037C985 /* FeatureFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8F485620DAAA4E0037C985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A8F485820DAAA4E0037C985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A8F485820DAAA4E0037C985 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7A8F485B20DAAA4E0037C985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A8F485D20DAAA500037C985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A8F486020DAAA500037C985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A8F486220DAAA500037C985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8F486820DACD6E0037C985 /* RCConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCConfig.swift; sourceTree = "<group>"; };
+		7A8F486A20DAD0790037C985 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A8F486D20E113D50037C985 /* WaitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
+		7A8F486F20E11DC20037C985 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		7A8F487220E13E480037C985 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		7A8F487420E13ED30037C985 /* ViewControllerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFeature.swift; sourceTree = "<group>"; };
+		7A8F487620E15E9B0037C985 /* Features.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Features.plist; sourceTree = "<group>"; };
+		7A8F487820E166AB0037C985 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		7A8F487A20E166C20037C985 /* DashvoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashvoardViewController.swift; sourceTree = "<group>"; };
+		7A8F487C20E166DE0037C985 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F881904BABC8AFEFC3F0341D /* Pods-FeatureFlags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeatureFlags.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeatureFlags/Pods-FeatureFlags.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60DF5D8EEC54C51A3169724 /* Pods_FeatureFlags.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4450ABD0809BD287AE9C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D0C739D8AB6F71B2DB5620 /* Pods_FeatureFlags.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68D8A6F5474A3C78FBEC6B7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66CA52CCAB2B4C934BDEE67C /* Pods-FeatureFlags.debug.xcconfig */,
+				F881904BABC8AFEFC3F0341D /* Pods-FeatureFlags.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A8F484A20DAAA4E0037C985 = {
 			isa = PBXGroup;
 			children = (
 				7A8F485520DAAA4E0037C985 /* FeatureFlags */,
 				7A8F485420DAAA4E0037C985 /* Products */,
+				68D8A6F5474A3C78FBEC6B7B /* Pods */,
+				1A4450ABD0809BD287AE9C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +99,31 @@
 			isa = PBXGroup;
 			children = (
 				7A8F485620DAAA4E0037C985 /* AppDelegate.swift */,
-				7A8F485820DAAA4E0037C985 /* ViewController.swift */,
+				7A8F486820DACD6E0037C985 /* RCConfig.swift */,
+				7A8F485820DAAA4E0037C985 /* MenuViewController.swift */,
+				7A8F486F20E11DC20037C985 /* TabViewController.swift */,
+				7A8F486D20E113D50037C985 /* WaitingViewController.swift */,
+				7A8F487C20E166DE0037C985 /* MapViewController.swift */,
+				7A8F487A20E166C20037C985 /* DashvoardViewController.swift */,
+				7A8F487820E166AB0037C985 /* HistoryViewController.swift */,
 				7A8F485A20DAAA4E0037C985 /* Main.storyboard */,
 				7A8F485D20DAAA500037C985 /* Assets.xcassets */,
 				7A8F485F20DAAA500037C985 /* LaunchScreen.storyboard */,
 				7A8F486220DAAA500037C985 /* Info.plist */,
+				7A8F487620E15E9B0037C985 /* Features.plist */,
+				7A8F486A20DAD0790037C985 /* GoogleService-Info.plist */,
+				7A8F487120E13E310037C985 /* Features */,
 			);
 			path = FeatureFlags;
+			sourceTree = "<group>";
+		};
+		7A8F487120E13E310037C985 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7A8F487220E13E480037C985 /* Feature.swift */,
+				7A8F487420E13ED30037C985 /* ViewControllerFeature.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A8F486520DAAA500037C985 /* Build configuration list for PBXNativeTarget "FeatureFlags" */;
 			buildPhases = (
+				316E9674F936CFE82E85A3E4 /* [CP] Check Pods Manifest.lock */,
 				7A8F484F20DAAA4E0037C985 /* Sources */,
 				7A8F485020DAAA4E0037C985 /* Frameworks */,
 				7A8F485120DAAA4E0037C985 /* Resources */,
+				7C38B1B4074BB0F7EB0ADB1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +187,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8F486120DAAA500037C985 /* LaunchScreen.storyboard in Resources */,
+				7A8F486B20DAD0790037C985 /* GoogleService-Info.plist in Resources */,
 				7A8F485E20DAAA500037C985 /* Assets.xcassets in Resources */,
 				7A8F485C20DAAA4E0037C985 /* Main.storyboard in Resources */,
+				7A8F487720E15E9B0037C985 /* Features.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		316E9674F936CFE82E85A3E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeatureFlags-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C38B1B4074BB0F7EB0ADB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FeatureFlags/Pods-FeatureFlags-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeatureFlags/Pods-FeatureFlags-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A8F484F20DAAA4E0037C985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A8F485920DAAA4E0037C985 /* ViewController.swift in Sources */,
+				7A8F487320E13E480037C985 /* Feature.swift in Sources */,
+				7A8F486E20E113D50037C985 /* WaitingViewController.swift in Sources */,
+				7A8F485920DAAA4E0037C985 /* MenuViewController.swift in Sources */,
+				7A8F487D20E166DE0037C985 /* MapViewController.swift in Sources */,
+				7A8F486920DACD6E0037C985 /* RCConfig.swift in Sources */,
+				7A8F487B20E166C20037C985 /* DashvoardViewController.swift in Sources */,
+				7A8F487020E11DC20037C985 /* TabViewController.swift in Sources */,
+				7A8F487520E13ED30037C985 /* ViewControllerFeature.swift in Sources */,
 				7A8F485720DAAA4E0037C985 /* AppDelegate.swift in Sources */,
+				7A8F487920E166AB0037C985 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +395,13 @@
 		};
 		7A8F486620DAAA500037C985 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA52CCAB2B4C934BDEE67C /* Pods-FeatureFlags.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBK22NK46A;
 				INFOPLIST_FILE = FeatureFlags/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +415,13 @@
 		};
 		7A8F486720DAAA500037C985 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F881904BABC8AFEFC3F0341D /* Pods-FeatureFlags.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBK22NK46A;
 				INFOPLIST_FILE = FeatureFlags/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
